@@ -1,0 +1,21 @@
+.start_button {
+    display: flex;
+    width: 150px;
+    /*height: 150px;*/
+    background-color:white;
+    color: #d64c4c;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    margin: 12px;
+    transition: opacity 0.2s;
+    opacity: 1;
+}

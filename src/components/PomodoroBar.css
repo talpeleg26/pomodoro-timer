@@ -1,0 +1,24 @@
+.pomodoro_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    gap: 24px;
+}
+
+.pomodoro_option{
+    padding: 4px 8px;
+}
+
+.pomodoro_option_selected{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 4px 8px;
+    border-radius:4px ;
+}
